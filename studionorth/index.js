@@ -22,7 +22,7 @@ function onLoad() {
     width: '100%',
     height: 500,
     video: 'lobby-super-hq.m4v',
-    is_stereo: true,
+    is_stereo: false,
     loop: true,
     //hide_fullscreen_button: true,
     //volume: 0.4,
