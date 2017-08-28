@@ -21,7 +21,7 @@ function onLoad() {
   vrView = new VRView.Player('#vrview', {
     width: '100%',
     height: 500,
-    video: '3DHDTest.mp4',
+    video: 'lobby-super-hq.m4v',
     is_stereo: true,
     loop: true,
     //hide_fullscreen_button: true,
