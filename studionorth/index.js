@@ -65,10 +65,11 @@ function onLoad() {
     console.log('media ended');
     playButton.classList.add('paused');
   });
+
+  vrView.play();
 }
 
 function onVRViewReady() {
-  vrView.play();
   console.log('vrView.isPaused', vrView.isPaused);
   // Set the initial state of the buttons.
   if (vrView.isPaused) {
