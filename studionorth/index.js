@@ -24,9 +24,9 @@ function onLoad() {
     video: 'lobby-super-hq.m4v',
     is_stereo: false,
     loop: true,
-    //hide_fullscreen_button: true,
+    hide_fullscreen_button: true,
     //volume: 0.4,
-    //muted: true,
+    muted: true,
     //is_debug: true,
     //default_heading: 90,
     //is_yaw_only: true,
@@ -68,6 +68,7 @@ function onLoad() {
 }
 
 function onVRViewReady() {
+  vrView.play();
   console.log('vrView.isPaused', vrView.isPaused);
   // Set the initial state of the buttons.
   if (vrView.isPaused) {
